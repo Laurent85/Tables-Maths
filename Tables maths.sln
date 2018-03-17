@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tables maths", "Tables maths\Tables maths.vbproj", "{E4B21A25-DC36-4708-9FA6-73B098EE959F}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F} = {E4B21A25-DC36-4708-9FA6-73B098EE959F}
+	EndProjectSection
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Installation tables", "Installation tables\Installation tables.aiproj", "{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.CD_ROM|x86.ActiveCfg = Release|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.CD_ROM|x86.Build.0 = Release|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.Debug|x86.ActiveCfg = Debug|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.Debug|x86.Build.0 = Debug|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.DVD-5|x86.ActiveCfg = Debug|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.DVD-5|x86.Build.0 = Debug|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.Release|x86.ActiveCfg = Release|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.Release|x86.Build.0 = Release|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.SingleImage|x86.ActiveCfg = Release|x86
+		{E4B21A25-DC36-4708-9FA6-73B098EE959F}.SingleImage|x86.Build.0 = Release|x86
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.CD_ROM|x86.Build.0 = CD_ROM
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.Debug|x86.ActiveCfg = DVD-5
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.Debug|x86.Build.0 = DVD-5
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.DVD-5|x86.ActiveCfg = DVD-5
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.DVD-5|x86.Build.0 = DVD-5
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.Release|x86.ActiveCfg = SingleImage
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.Release|x86.Build.0 = SingleImage
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.SingleImage|x86.ActiveCfg = SingleImage
+		{481E3C4F-FCC8-46AB-B499-C33677AB7B2B}.SingleImage|x86.Build.0 = SingleImage
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.CD_ROM|x86.ActiveCfg = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.CD_ROM|x86.Build.0 = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.Debug|x86.ActiveCfg = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.Debug|x86.Build.0 = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.DVD-5|x86.ActiveCfg = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.DVD-5|x86.Build.0 = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.Release|x86.ActiveCfg = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.Release|x86.Build.0 = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.SingleImage|x86.ActiveCfg = DefaultBuild
+		{3B9CEFB2-1308-40F9-B3B4-7F5F279AEB0D}.SingleImage|x86.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
